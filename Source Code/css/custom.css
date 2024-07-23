@@ -1,0 +1,84 @@
+.login-form{
+	max-width:400px;
+	margin: 0 auto;
+}
+
+.register-form{
+	max-width:700px;
+	margin: 0 auto;
+}
+
+.error-box{
+	background: #c02424;
+	padding: 10px 20px;
+	border-radius: 3px;
+	margin-bottom: 30px;
+}
+
+.error-box p{
+	color: #fff;
+	margin: 0;
+	font-size: 14px;
+}
+
+.hero-banner-section{
+	width: 100%;
+	overflow: hidden;
+}
+
+.hero-banner-section .hero-slider{
+	position: relative;
+}
+
+.hero-banner-section .hero-pagination{
+	position: absolute;
+	bottom: 20px;
+	z-index: 100;
+	width: 100%;
+	text-align: center;
+}
+
+.hero-banner-section .hero-pagination .swiper-pagination-bullet{
+	width: 16px;
+	height: 16px;
+	background: #fff;
+	border-radius: 0;
+	margin: 0 6px;
+	opacity: 0.8;
+}
+
+.hero-banner-section .hero-pagination .swiper-pagination-bullet-active{
+	opacity: 1;
+}
+
+.aboutus-section{
+	margin-top: 50px;
+	margin-bottom:50px;
+}
+
+.aboutus-section .feature .feature-box .clearfix .iconset{
+	display: none;
+}
+
+.aboutus-section .feature .feature-box .clearfix .feature-content p{
+	font-size: 20px;
+}
+
+.breadcrumb-section{
+	position: relative;		
+}
+
+.breadcrumb-section:before{
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.5);
+}
+
+.shoping__cart__table table tbody tr td.shoping__cart__item img{
+	max-width: 100px;
+}
